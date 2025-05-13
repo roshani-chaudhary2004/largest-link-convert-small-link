@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple URL Shortener (Offline Demo)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Demo URL Shortener</h2>
+    <input type="text" id="urlInput" placeholder="Paste long URL here" />
+    <button onclick="generateShortLink()">Generate</button>
+    <div id="output" class="hidden">
+      <p>Short Link:</p>
+      <a id="shortLink" href="#" target="_blank"></a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
